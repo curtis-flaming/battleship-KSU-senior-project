@@ -1,0 +1,20 @@
+type Game @model @auth(rules: [{ allow: owner, operations: [create] }]) 
+{
+  id: ID!
+  gameOpen: Boolean!
+  ownerID: String!
+  guestID: String
+  guestUserName: String
+  ownerGameState: String!
+  guestGameState: String!
+  ownerReady: Boolean!
+  guestReady: Boolean!
+  gameTurn: String!
+  winner: String
+}
+
+
+type Subscription {
+  subToGame(id: ID!): Game @aws_subscribe(mutations: ["updateGame"])
+  subToGameDelete(id: ID!): Game @aws_subscribe(mutations: ["deleteGame"])
+}
