@@ -1,5 +1,7 @@
 ## This is the application I built for my senior project at Kansas State University.
 
+![screenshot](senior-project-snapshot.png)
+
 This was my first attempt at a full stack stack React application. I chose to build a battleship clone because I wanted to try to build a React application with higher levels of interaction than I had done before in order to better understand the library. It also served as a starting point for my journey into the serverless realm. 
 
 ### The technologies I used:
