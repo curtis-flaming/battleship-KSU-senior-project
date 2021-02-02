@@ -1,0 +1,102 @@
+.game-window{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.grid-panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:  60%;
+    width: 50%;
+}
+
+.player-panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: start; */
+    border: 2px solid #323031;
+    border-radius: 1%;
+    height: 60%;
+    width: 15%;
+}
+
+.boat-select-panel{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.boat-orientation-display{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+}
+
+.grid{
+    position: relative;
+    border: 1px solid #323031;
+    display: grid;
+    width: 100%;
+    height: 70%;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    margin: 2%;
+    border-radius: 1%;
+}
+
+
+.grid-container{
+    /* margin: 1vw; */
+}
+
+.cell{
+    border: 1px solid #323031;
+    /* width: minmax(3vw, 10px);
+    height: minmax(3vw, 10px); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell::after{
+    content: '';
+    
+}
+
+.hit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #323031;
+    height: 1.5vh;
+    width: 1.5vh;
+    border-radius: 60%;
+}
+
+.enemy-cell{
+    border: 1px solid #323031;
+    /* width: 3.5vh;
+    height: 3.5vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.boat-selection{
+    display: flex;
+    margin: 3px;
+}

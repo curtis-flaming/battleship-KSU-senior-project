@@ -1,0 +1,35 @@
+
+
+.grids-panel{
+    display: flex;
+    width: 100%;
+}
+
+
+.player-grid-container{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.enemy-grid-container{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.player-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+}
+
+.enemy-grid{
+    border: 2px solid yellow;
+    width: 400px;
+    height: 400px;
+}
+

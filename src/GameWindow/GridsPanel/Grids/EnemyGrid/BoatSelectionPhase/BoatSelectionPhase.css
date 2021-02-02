@@ -1,0 +1,94 @@
+.boat-seletion-phase{
+    border: 3px solid #50514f;
+    width: 100%;
+    height: 50%;
+}
+
+/* battleship: {
+    background: "#fe4a49",
+  },
+  aircraftcarrier: {
+    background: "#fe9158",
+  },
+  destroyer: {
+    background: "#fed766",
+  },
+  sub: {
+    background: "#7fbb8f",
+  },
+  tug: {
+    background: "#009fb7",
+  }, */
+
+.boat-selection{
+    width: 100%;
+    height: 100%;
+}
+
+.boat-selection-container{
+ display: flex;
+ flex-direction: column;   
+ height: 100%;
+}
+
+.battleship-selection{
+    background: #fe4a49;
+    width: 100px;
+    height: 20px;
+    margin: 4px;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+    border-top-right-radius: 60%;
+    border-top-left-radius: 60%;
+}
+
+.aircraftcarrier-selection{
+    background: #fe9158;
+    width: 150px;
+    height: 20px;
+    margin: 4px;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    border-top-right-radius: 80%;
+    border-top-left-radius: 80%;
+}
+
+.destroyer-selection{
+    background:#fed766;
+    width: 70px;
+    height: 20px;
+    margin: 4px;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    border-top-right-radius: 80%;
+    border-top-left-radius: 80%;
+}
+
+.sub-selection{
+    background: #7fbb8f;
+    width: 70px;
+    height: 20px;
+    margin: 4px;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    border-top-right-radius: 80%;
+    border-top-left-radius: 80%;
+}
+
+.tug-selection{
+    background: #009fb7;
+    width: 35px;
+    height: 20px;
+    margin: 4px;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    border-top-right-radius: 80%;
+    border-top-left-radius: 80%;
+}
+
+.boat-orientation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+}

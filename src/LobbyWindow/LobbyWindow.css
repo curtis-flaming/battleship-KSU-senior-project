@@ -1,0 +1,40 @@
+.lobby-window{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-list {
+    margin-top: 3vh;
+    border: 2px solid #009fb7;
+    height: 300px;
+    width: 200px;
+    overflow-y: auto;
+    border-radius: 2%;
+  }
+  .game-list::-webkit-scrollbar {
+    width: 15px;
+    background: #009fb7;
+  }
+  
+  .game-list::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #009fb7;
+    border-radius: 10px;
+  }
+  
+  .game-list::-webkit-scrollbar-thumb {
+    background: #fe4a49;
+    border-radius: 10px;
+  }
+
+  .game-item {
+    display: flex;
+    justify-content: flex-start;
+    margin: 3px 0px 0px 3px;
+    color: #323031;
+  }
+
+  .create-game{
+      margin-top: 3vh;
+  }
